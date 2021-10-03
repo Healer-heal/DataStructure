@@ -66,7 +66,7 @@ void HuffmanCode(HFcodeType HFcode[MAXLEAF],int n) {
 	for(i = 0; i < n; i++) {
 		c = i;
 		p = HFnode[c].parent;
-		while(p != NULL) {
+		while(p != -1) {
 			if (HFnode[p].lchild == c) {
 				cd.bit[cd.start] = 0;
 			}
