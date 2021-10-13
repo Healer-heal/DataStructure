@@ -1,4 +1,4 @@
-////¹é²¢ÅÅĞò¸´Ï° 
+////å½’å¹¶æ’åº
 //#include<stdio.h>
 //#include<stdlib.h>
 //#include<string.h>
@@ -48,7 +48,7 @@
 //	return 0;
 //}
 
-//¿ìÅÅ 
+//å¿«é€Ÿæ’åº
 #include<stdio.h>
 #include<string.h>
 void swap(int &num1,int &num2) {
